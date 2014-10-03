@@ -1,6 +1,9 @@
-﻿Build started 10/3/2014 10:16:12 AM.
-     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" on node 4 (Build target(s)).
-     1>ClCompile:
+﻿Build started 10/3/2014 10:58:07 AM.
+     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/hfs5022/Desktop/OpenTLD/src/libopentld/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv249\build\include /IC:\opencv249\build\include\opencv /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\imacq /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\mftracker /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\tld /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\..\3rdparty\cvblobs /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D LIBCONFIGXX_STATIC /D LIBCONFIG_STATIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libopentld.dir\Debug\\" /Fd"libopentld.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\libopentld\imacq\ImAcq.cpp ..\..\..\src\libopentld\mftracker\BB.cpp ..\..\..\src\libopentld\mftracker\BBPredict.cpp ..\..\..\src\libopentld\mftracker\FBTrack.cpp ..\..\..\src\libopentld\mftracker\Lk.cpp ..\..\..\src\libopentld\mftracker\Median.cpp ..\..\..\src\libopentld\tld\Clustering.cpp ..\..\..\src\libopentld\tld\DetectionResult.cpp ..\..\..\src\libopentld\tld\DetectorCascade.cpp ..\..\..\src\libopentld\tld\EnsembleClassifier.cpp ..\..\..\src\libopentld\tld\ForegroundDetector.cpp ..\..\..\src\libopentld\tld\MedianFlowTracker.cpp ..\..\..\src\libopentld\tld\NNClassifier.cpp ..\..\..\src\libopentld\tld\TLD.cpp ..\..\..\src\libopentld\tld\TLDUtil.cpp ..\..\..\src\libopentld\tld\VarianceFilter.cpp
          ImAcq.cpp
      1>..\..\..\src\libopentld\imacq\ImAcq.cpp(112): warning C4244: '=' : conversion from 'int64' to 'double', possible loss of data
@@ -97,8 +100,8 @@
          libopentld.dir\Debug\TLDUtil.obj
          libopentld.dir\Debug\VarianceFilter.obj
          libopentld.vcxproj -> C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\opentld.lib
-     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:26.32
+Time Elapsed 00:00:24.09

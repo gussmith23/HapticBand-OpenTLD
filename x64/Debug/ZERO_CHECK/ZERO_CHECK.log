@@ -1,5 +1,14 @@
-﻿Build started 10/3/2014 10:16:12 AM.
+﻿Build started 10/3/2014 10:58:07 AM.
+     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/hfs5022/Desktop/OpenTLD/Project/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/hfs5022/Desktop/OpenTLD/Project/src/3rdparty/cvblobs/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/hfs5022/Desktop/OpenTLD/Project/src/3rdparty/libconfig/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/hfs5022/Desktop/OpenTLD/Project/src/libopentld/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/hfs5022/Desktop/OpenTLD/Project/src/opentld/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\ZERO_CHECK.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.08
+Time Elapsed 00:00:00.22
