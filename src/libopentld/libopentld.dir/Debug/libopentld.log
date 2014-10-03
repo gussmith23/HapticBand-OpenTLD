@@ -1,4 +1,4 @@
-﻿Build started 10/3/2014 10:58:07 AM.
+﻿Build started 10/3/2014 11:35:50 AM.
      1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" on node 2 (Rebuild target(s)).
      1>CustomBuild:
          Building Custom Rule C:/Users/hfs5022/Desktop/OpenTLD/src/libopentld/CMakeLists.txt
@@ -104,4 +104,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:24.09
+Time Elapsed 00:00:22.62
