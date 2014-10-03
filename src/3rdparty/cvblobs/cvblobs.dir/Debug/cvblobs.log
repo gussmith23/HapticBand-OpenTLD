@@ -1,0 +1,42 @@
+﻿Build started 10/3/2014 10:16:12 AM.
+     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\3rdparty\cvblobs\cvblobs.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv249\build\include /IC:\opencv249\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D LIBCONFIGXX_STATIC /D LIBCONFIG_STATIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cvblobs.dir\Debug\\" /Fd"cvblobs.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\src\3rdparty\cvblobs\blob.cpp ..\..\..\..\src\3rdparty\cvblobs\BlobContour.cpp ..\..\..\..\src\3rdparty\cvblobs\BlobOperators.cpp ..\..\..\..\src\3rdparty\cvblobs\BlobProperties.cpp ..\..\..\..\src\3rdparty\cvblobs\BlobResult.cpp ..\..\..\..\src\3rdparty\cvblobs\ComponentLabeling.cpp
+         blob.cpp
+     1>..\..\..\..\src\3rdparty\cvblobs\blob.cpp(586): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\blob.cpp(587): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\blob.cpp(592): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\blob.cpp(603): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\blob.cpp(624): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BlobContour.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         BlobOperators.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         BlobProperties.cpp
+         BlobResult.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\cvblobs\BlobResult.h(149): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\BlobResult.cpp(934): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         ComponentLabeling.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\..\..\src\3rdparty\cvblobs\ComponentLabeling.cpp(318): warning C4244: 'argument' : conversion from 'short' to 't_chainCode', possible loss of data
+     1>..\..\..\..\src\3rdparty\cvblobs\ComponentLabeling.cpp(346): warning C4244: 'argument' : conversion from 'short' to 't_chainCode', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\cvblobs.lib" /NOLOGO /MACHINE:X64 cvblobs.dir\Debug\blob.obj
+         cvblobs.dir\Debug\BlobContour.obj
+         cvblobs.dir\Debug\BlobOperators.obj
+         cvblobs.dir\Debug\BlobProperties.obj
+         cvblobs.dir\Debug\BlobResult.obj
+         cvblobs.dir\Debug\ComponentLabeling.obj
+         cvblobs.vcxproj -> C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\cvblobs.lib
+     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\3rdparty\cvblobs\cvblobs.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.75

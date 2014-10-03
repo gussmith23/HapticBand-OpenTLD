@@ -1,0 +1,108 @@
+﻿Build started 10/3/2014 10:16:12 AM.
+     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\3rdparty\libconfig\config++.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv249\build\include /IC:\opencv249\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D LIBCONFIGXX_STATIC /D LIBCONFIG_STATIC /D YY_NO_UNISTD_H /D YY_USE_CONST /D _CRT_SECURE_NO_DEPRECATE /D _STDLIB_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"config++.dir\Debug\\" /Fd"config++.dir\Debug\vc110.pdb" /Gd /TC /errorReport:prompt ..\..\..\..\src\3rdparty\libconfig\grammar.c ..\..\..\..\src\3rdparty\libconfig\libconfig.c ..\..\..\..\src\3rdparty\libconfig\scanctx.c ..\..\..\..\src\3rdparty\libconfig\scanner.c ..\..\..\..\src\3rdparty\libconfig\strbuf.c
+         grammar.c
+         libconfig.c
+         scanctx.c
+         scanner.c
+     1>scanner.c(941): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.l(181): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1412): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1425): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1447): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1456): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1902): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1940): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>scanner.c(1962): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+         strbuf.c
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv249\build\include /IC:\opencv249\build\include\opencv /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D LIBCONFIGXX_STATIC /D LIBCONFIG_STATIC /D YY_NO_UNISTD_H /D YY_USE_CONST /D _CRT_SECURE_NO_DEPRECATE /D _STDLIB_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"config++.dir\Debug\\" /Fd"config++.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\..\src\3rdparty\libconfig\libconfigcpp.cc
+         libconfigcpp.cc
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(201): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(216): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(217): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(218): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(219): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(220): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(221): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(222): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(223): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(224): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(225): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(226): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(228): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(231): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(232): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(233): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(234): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(235): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(236): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(237): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(238): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(241): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(244): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(248): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(298): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(301): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(305): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(308): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(312): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(314): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(326): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(327): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(382): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(385): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(386): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(389): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(390): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(393): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfig.h++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(396): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(404): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(420): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(428): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(437): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(624): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(633): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(642): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(656): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(659): warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(666): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(669): warning C4244: 'return' : conversion from 'unsigned __int64' to 'unsigned long', possible loss of data
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(676): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(685): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(699): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(708): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(718): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(727): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(742): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(753): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(764): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(775): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(786): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(797): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(810): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(822): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(834): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(850): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(980): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(992): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1033): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1044): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1056): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1075): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+     1>c:\users\hfs5022\desktop\opentld\src\3rdparty\libconfig\libconfigcpp.c++(1135): warning C4290: C++ exception specification ignored except to indicate a function is not __declspec(nothrow)
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\config++.lib" /NOLOGO /MACHINE:X64 config++.dir\Debug\grammar.obj
+         config++.dir\Debug\libconfig.obj
+         config++.dir\Debug\libconfigcpp.obj
+         config++.dir\Debug\scanctx.obj
+         config++.dir\Debug\scanner.obj
+         config++.dir\Debug\strbuf.obj
+         config++.vcxproj -> C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\config++.lib
+     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\3rdparty\libconfig\config++.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.28

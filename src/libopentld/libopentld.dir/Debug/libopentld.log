@@ -1,0 +1,104 @@
+﻿Build started 10/3/2014 10:16:12 AM.
+     1>Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\opencv249\build\include /IC:\opencv249\build\include\opencv /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\imacq /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\mftracker /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\tld /IC:\Users\hfs5022\Desktop\OpenTLD\src\libopentld\..\3rdparty\cvblobs /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D LIBCONFIGXX_STATIC /D LIBCONFIG_STATIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libopentld.dir\Debug\\" /Fd"libopentld.dir\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\libopentld\imacq\ImAcq.cpp ..\..\..\src\libopentld\mftracker\BB.cpp ..\..\..\src\libopentld\mftracker\BBPredict.cpp ..\..\..\src\libopentld\mftracker\FBTrack.cpp ..\..\..\src\libopentld\mftracker\Lk.cpp ..\..\..\src\libopentld\mftracker\Median.cpp ..\..\..\src\libopentld\tld\Clustering.cpp ..\..\..\src\libopentld\tld\DetectionResult.cpp ..\..\..\src\libopentld\tld\DetectorCascade.cpp ..\..\..\src\libopentld\tld\EnsembleClassifier.cpp ..\..\..\src\libopentld\tld\ForegroundDetector.cpp ..\..\..\src\libopentld\tld\MedianFlowTracker.cpp ..\..\..\src\libopentld\tld\NNClassifier.cpp ..\..\..\src\libopentld\tld\TLD.cpp ..\..\..\src\libopentld\tld\TLDUtil.cpp ..\..\..\src\libopentld\tld\VarianceFilter.cpp
+         ImAcq.cpp
+     1>..\..\..\src\libopentld\imacq\ImAcq.cpp(112): warning C4244: '=' : conversion from 'int64' to 'double', possible loss of data
+     1>..\..\..\src\libopentld\imacq\ImAcq.cpp(163): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\imacq\ImAcq.cpp(166): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         BB.cpp
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(74): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(98): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(119): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(120): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BB.cpp(152): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         BBPredict.cpp
+     1>..\..\..\src\libopentld\mftracker\BBPredict.cpp(105): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\BBPredict.cpp(106): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         FBTrack.cpp
+         Lk.cpp
+     1>..\..\..\src\libopentld\mftracker\Lk.cpp(250): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\Lk.cpp(251): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\Lk.cpp(252): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\mftracker\Lk.cpp(253): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data
+         Median.cpp
+         Clustering.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(60): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(78): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(79): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(80): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(81): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(111): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\Clustering.cpp(131): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         DetectionResult.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         DetectorCascade.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(49): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(182): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(183): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(184): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(189): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(190): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(205): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(221): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\DetectorCascade.cpp(222): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+         EnsembleClassifier.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\..\src\libopentld\tld\EnsembleClassifier.cpp(65): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         ForegroundDetector.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>C:\Users\hfs5022\Desktop\OpenTLD\src\3rdparty\cvblobs\BlobResult.h(149): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         MedianFlowTracker.cpp
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(63): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(73): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(74): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(75): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(76): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\MedianFlowTracker.cpp(85): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         NNClassifier.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>..\..\..\src\libopentld\tld\NNClassifier.cpp(40): warning C4305: '=' : truncation from 'double' to 'float'
+     1>..\..\..\src\libopentld\tld\NNClassifier.cpp(78): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         TLD.cpp
+     1>..\..\..\src\libopentld\tld\TLD.cpp(294): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\TLD.cpp(390): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\..\..\src\libopentld\tld\TLD.cpp(569): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\TLD.cpp(601): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\..\src\libopentld\tld\TLD.cpp(623): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         TLDUtil.cpp
+     1>c:\opencv249\build\include\opencv2\flann\logger.h(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+         VarianceFilter.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\opentld.lib" /NOLOGO /MACHINE:X64 libopentld.dir\Debug\ImAcq.obj
+         libopentld.dir\Debug\BB.obj
+         libopentld.dir\Debug\BBPredict.obj
+         libopentld.dir\Debug\FBTrack.obj
+         libopentld.dir\Debug\Lk.obj
+         libopentld.dir\Debug\Median.obj
+         libopentld.dir\Debug\Clustering.obj
+         libopentld.dir\Debug\DetectionResult.obj
+         libopentld.dir\Debug\DetectorCascade.obj
+         libopentld.dir\Debug\EnsembleClassifier.obj
+         libopentld.dir\Debug\ForegroundDetector.obj
+         libopentld.dir\Debug\MedianFlowTracker.obj
+         libopentld.dir\Debug\NNClassifier.obj
+         libopentld.dir\Debug\TLD.obj
+         libopentld.dir\Debug\TLDUtil.obj
+         libopentld.dir\Debug\VarianceFilter.obj
+         libopentld.vcxproj -> C:\Users\hfs5022\Desktop\OpenTLD\Project\lib\Debug\opentld.lib
+     1>Done Building Project "C:\Users\hfs5022\Desktop\OpenTLD\Project\src\libopentld\libopentld.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.32
